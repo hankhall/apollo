@@ -1,14 +1,14 @@
 @echo off
 
 rem apollo config db info
-set apollo_config_db_url="jdbc:mysql://47.110.210.71:3306/ApolloConfigDB?characterEncoding=utf8"
-set apollo_config_db_username="apollo"
-set apollo_config_db_password="1qaz@WSX"
+set apollo_config_db_url="jdbc:mysql://shufe.servers.zcunsoft.com:3306/ApolloConfigDB?characterEncoding=utf8"
+set apollo_config_db_username="root"
+set apollo_config_db_password="ZC@soft"
 
 rem apollo portal db info
-set apollo_portal_db_url="jdbc:mysql://47.110.210.71:3306/ApolloPortalDB?characterEncoding=utf8"
-set apollo_portal_db_username="apollo"
-set apollo_portal_db_password="1qaz@WSX"
+set apollo_portal_db_url="jdbc:mysql://shufe.servers.zcunsoft.com:3306/ApolloPortalDB?characterEncoding=utf8"
+set apollo_portal_db_username="root"
+set apollo_portal_db_password="ZC@soft"
 
 rem meta server url, different environments should have different meta server addresses
 set dev_meta="http://localhost:8080"

@@ -207,4 +207,6 @@ public class AdminServiceAuthenticationFilterTest {
     verify(servletResponse, never()).sendError(anyInt(), anyString());
     verify(servletRequest, never()).getHeader(HttpHeaders.AUTHORIZATION);
   }
+  
+
 }
